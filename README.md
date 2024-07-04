@@ -128,14 +128,14 @@ If you don't already have such a wordlist, BashWare will prompt you to download 
 ## Usage
 
 With Option 1:
-    ```sh
-    /path/to/bashware.sh
-    ```
+  ```sh
+  /path/to/bashware.sh
+  ```
     
 With Option 2:
-    ```sh
-    bashware
-    ```
+  ```sh
+  bashware
+  ```
  
 <p align="right">(<a href="#readme-top">Back to TOP</a>)</p>
 
