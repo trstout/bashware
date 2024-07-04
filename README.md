@@ -20,7 +20,7 @@ Utilizes /dev/urandom for CSPRNG. Defaults to the Large EFF Wordlist and a passp
 <br />
 <div align="center">
   <a href="https://github.com/trstout/bashware/">
-    <img src="https://github.com/trstout/bashware/bashware_logo_dark.png" alt="BashWare ...Because passwords are for suckers." width="688" height="196">
+    <img src="https://github.com/trstout/bashware/blob/main/bashware_logo_dark.png?raw=true" alt="BashWare ...Because passwords are for suckers." width="688" height="196">
   </a>
 
 <h3 align="center">BashWare</h3>
