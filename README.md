@@ -72,7 +72,7 @@ Utilizes /dev/urandom for CSPRNG. Defaults to the Large EFF Wordlist and a passp
 <!-- ABOUT THE PROJECT -->
 ## About BashWare
 
-<img src="https://github.com/trstout/bashware/bashware_screenshot.png" alt="BashWare Screenshot">
+<img src="https://github.com/trstout/bashware/bashware_screenshot" alt="BashWare Screenshot">
 
 <p align="right">(<a href="#readme-top">Back to TOP</a>)</p>
 
