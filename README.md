@@ -145,7 +145,7 @@ With Option 2:
 - [ ] TO DO:
     - [ ] Incorporate CeWL to enable custom wordlist creation & improve randomness.
     - [ ] Fix min_length for words to increase entropy.
-    - [ ] Shadow stdout and copy to passphrase to clipboard (assume compromise.)
+    - [ ] Shadow stdout and copy passphrase to clipboard (assume compromise.)
     - [ ] Integrate with extant Password Manager (or build one).
 
 See the [open issues](https://github.com/trstout/bashware/issues) for a full list of proposed features (and known issues).
