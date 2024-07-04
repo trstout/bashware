@@ -20,7 +20,7 @@ Utilizes /dev/urandom for CSPRNG. Defaults to the Large EFF Wordlist and a passp
 <br />
 <div align="center">
   <a href="https://github.com/trstout/bashware/">
-    <img src="images/bashware_logo_dark.png" alt="BashWare ...Because passwords are for suckers." width="688" height="196">
+    <img src="https://github.com/trstout/bashware/bashware_logo_dark.png" alt="BashWare ...Because passwords are for suckers." width="688" height="196">
   </a>
 
 <h3 align="center">BashWare</h3>
@@ -72,7 +72,7 @@ Utilizes /dev/urandom for CSPRNG. Defaults to the Large EFF Wordlist and a passp
 <!-- ABOUT THE PROJECT -->
 ## About BashWare
 
-<img src="bashware_screenshot.png" alt="BashWare Screenshot">
+<img src="https://github.com/trstout/bashware/bashware_screenshot.png" alt="BashWare Screenshot">
 
 <p align="right">(<a href="#readme-top">Back to TOP</a>)</p>
 
@@ -81,9 +81,7 @@ Utilizes /dev/urandom for CSPRNG. Defaults to the Large EFF Wordlist and a passp
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Clone repo:
-    
-    git clone https://github.com/trstout/bashware/
+Just do it.
 
 ### Prerequisites
 
@@ -95,7 +93,7 @@ A wordlist in the following format:
 .
 66666 last word
 
-If you don't already have such a wordlist, BashWare will prompt you to download it. 
+If you don't already have such a wordlist, BashWare will prompt you to download one. 
 
 ### Installation
 
@@ -144,10 +142,13 @@ With Option 2:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Define your own wordlist. 
+- [ ] Define how long you wish your passphrase to be.
+- [ ] TO DO:
+    - [ ] Incorporate CeWL to enable custom wordlist creation & improve randomness.
+    - [ ] Fix min_length for words to increase entropy.
+    - [ ] Shadow stdout and copy to passphrase to clipboard (assume compromise.)
+    - [ ] Integrate with extant Password Manager (or build one).
 
 See the [open issues](https://github.com/trstout/bashware/issues) for a full list of proposed features (and known issues).
 
@@ -161,7 +162,8 @@ See the [open issues](https://github.com/trstout/bashware/issues) for a full lis
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+
+Stars are welcome, but improvements are better! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -194,9 +196,9 @@ Project Link: [https://github.com/trstout/bashware](https://github.com/trstout/b
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* []<a href="https://wwww.eff.org">Electronic Frontier Foundation</a>
+* []<a href="https://theworld.com/~reinhold/diceware.html">DiceWare: In the beginning....</a>
+* []<a href="https://diceware.dmuth.org">dmuth's Diceware Webapp</a>
 
 <p align="right">(<a href="#readme-top">Back to TOP</a>)</p>
 
