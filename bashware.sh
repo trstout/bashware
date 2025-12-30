@@ -16,7 +16,7 @@ __________                 .__     __      __
         \/      \/      \/      \/       \/        \/             \/ "
 
 
-echo -e "A Semi-Interactive Diceware Inspired Passphrase Generator. Copyright 2024 [redacted]'\n"
+echo -e "A Semi-Interactive Diceware Inspired Passphrase Generator. Copyright 2024 [redacted]\n"
 echo -e " -Read more about Diceware at https://theworld.com/~reinhold/diceware.html."
 echo -e " -Visit the EFF at https://www.eff.org!\n"
 echo -e "Uses EFF Large Wordlist and a default word count of 7.\n"
@@ -55,11 +55,6 @@ if ! test -f $WORDLIST; then
   esac
 fi
 
-# # Prompt user for minimun desired word length
-# echo -n "Enter the desired minimum word length (default: 3): "
-# read -p "$* " WORD_LENGTH
-# WORD_LENGTH=${WORD_LENGTH:-3}
-
 # Prompt user for the number of words desired
 read -p "Desired length of passphrase? (ENTER for default) " NUM_WORDS
 NUM_WORDS=${NUM_WORDS:-7}
@@ -72,7 +67,7 @@ for ((i=1; i<=$NUM_WORDS; i++)); do
   RANDOM_NUMBER=$(head /dev/urandom | tr -dc '1-6' | fold -w 1 | head -n 5 | paste -sd '')
 
   # Read the corresponding line from the wordlist
-  WORD=$(grep $RANDOM_NUMBER /usr/share/wordlists/eff_long1.txt | awk -F ' ' '{print $2}')
+  WORD=$(grep $RANDOM_NUMBER /usr/share/wordlists/eff_large_wordlist.txt | awk -F ' ' '{print $2}')
     echo -n "${WORD^} "
 done
 echo -e "\n"
