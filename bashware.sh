@@ -67,7 +67,7 @@ for ((i=1; i<=$NUM_WORDS; i++)); do
   RANDOM_NUMBER=$(head /dev/urandom | tr -dc '1-6' | fold -w 1 | head -n 5 | paste -sd '')
 
   # Read the corresponding line from the wordlist
-  WORD=$(grep $RANDOM_NUMBER /usr/share/wordlists/eff_large_wordlist.txt | awk -F ' ' '{print $2}')
+  WORD=$(grep $RANDOM_NUMBER $WORDLIST | awk -F ' ' '{print $2}')
     echo -n "${WORD^} "
 done
 echo -e "\n"
